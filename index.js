@@ -1,30 +1,16 @@
-let count = 0
+let counter = document.getElementById('count');
+let decreaseBtn = document.getElementById('decrease-btn');
+let resetBtn = document.getElementById('reset-btn');
+let increaseBtn = document.getElementById('increase-btn');
 
-let counter = document.getElementById('count') 
-let decreaseBtn = document.getElementById('decrease-btn')
-let resetBtn = document.getElementById('reset-btn')
-let increaseBtn = document.getElementById('increase-btn')
-
-function decrease() {
-  counter.innerHTML--
-}
-
-function reset() {
-  counter.innerHTML = 0
-}
-
-function increase() {
-  counter.innerHTML++
-}
-
-decreaseBtn.addEventListener('click', function() {
-  decrease()
+decreaseBtn.addEventListener('click', () => {
+    counter.textContent--;
 })
 
-resetBtn.addEventListener('click', function() {
-  reset()
+resetBtn.addEventListener('click', () => {
+    counter.textContent = 0;
 })
 
-increaseBtn.addEventListener('click', function() {
-  increase()
+increaseBtn.addEventListener('click', () => {
+    counter.textContent++;
 })
