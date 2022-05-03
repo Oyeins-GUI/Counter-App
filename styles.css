@@ -1,36 +1,38 @@
 * {
- margin: 0;
- padding: 0;
- box-sizing: border-box;
- font-family: Franklin Gothic Medium, Monospace;
- text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Franklin Gothic Medium, Monospace;
+    text-align: center;
 }
 
 .title {
-  margin: 50px 0px 0px 0px;
-  font-size: 40px;
+    margin-top: 50px;
+    font-size: 40px;
 }
 
 #count {
-  margin: 10px 0px 0px 0px;
-  font-size: 60px;
-}
-
-.btns {
-  margin: 10px 0px 15px 0px;
-  padding: 5px 0px 5px 0px;
+    margin-top: 10px;
+    font-size: 60px;
 }
 
 .btn {
-  display: inline;
-  margin: 0px 7px 0px 7px;
-  font-size: 20px;
+    display: inline-block;
+    margin: 7px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+}
+
+button {
+    padding: 2px;
 }
 
 button:hover {
-  background-color: rgb(88, 88, 88);
-  color: white;
-  cursor: pointer;
-  transition: 300ms;
-  font-size: 17px;
+    background-color: rgb(63, 63, 63);
+    color: white;
+    cursor: pointer;
+    transition: all .3s linear;
+    outline: none;
+    border: none;
 }
