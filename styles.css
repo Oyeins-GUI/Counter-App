@@ -18,14 +18,14 @@
 
 .btn {
     display: inline-block;
-    margin: 7px;
-    font-size: 20px;
-    outline: none;
-    border: none;
+    margin: 5px;
 }
 
-button {
-    padding: 2px;
+.dri button {
+    margin-bottom: 10px;
+    font-size: 18px;
+    padding: 5px;
+    outline: none;
 }
 
 button:hover {
@@ -35,4 +35,33 @@ button:hover {
     transition: all .3s linear;
     outline: none;
     border: none;
+}
+
+.save-clear {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#save-btn,
+#clear-prev-count {
+    width: 290px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    padding: 5px;
+    outline: none;
+}
+
+#save-btn:hover {
+    background: rgba(0, 0, 0, 0.05);
+    color: black;
+    border: .5px solid black;
+}
+
+p {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
 }
